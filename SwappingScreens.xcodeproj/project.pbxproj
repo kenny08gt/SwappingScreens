@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		17CB8F0F1E52771900A3F86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F0E1E52771900A3F86E /* AppDelegate.swift */; };
-		17CB8F111E52771900A3F86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F101E52771900A3F86E /* ViewController.swift */; };
+		17CB8F111E52771900A3F86E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F101E52771900A3F86E /* LoginVC.swift */; };
 		17CB8F141E52771900A3F86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F121E52771900A3F86E /* Main.storyboard */; };
 		17CB8F161E52771900A3F86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F151E52771900A3F86E /* Assets.xcassets */; };
 		17CB8F191E52771900A3F86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F171E52771900A3F86E /* LaunchScreen.storyboard */; };
+		17CB8F211E52789500A3F86E /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F201E52789500A3F86E /* MusicListVC.swift */; };
+		17CB8F231E527C4A00A3F86E /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F221E527C4A00A3F86E /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17CB8F0B1E52771900A3F86E /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CB8F0E1E52771900A3F86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17CB8F101E52771900A3F86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17CB8F101E52771900A3F86E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		17CB8F131E52771900A3F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17CB8F151E52771900A3F86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CB8F181E52771900A3F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17CB8F1A1E52771900A3F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CB8F201E52789500A3F86E /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		17CB8F221E527C4A00A3F86E /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				17CB8F0E1E52771900A3F86E /* AppDelegate.swift */,
-				17CB8F101E52771900A3F86E /* ViewController.swift */,
+				17CB8F101E52771900A3F86E /* LoginVC.swift */,
 				17CB8F121E52771900A3F86E /* Main.storyboard */,
 				17CB8F151E52771900A3F86E /* Assets.xcassets */,
 				17CB8F171E52771900A3F86E /* LaunchScreen.storyboard */,
 				17CB8F1A1E52771900A3F86E /* Info.plist */,
+				17CB8F201E52789500A3F86E /* MusicListVC.swift */,
+				17CB8F221E527C4A00A3F86E /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CB8F111E52771900A3F86E /* ViewController.swift in Sources */,
+				17CB8F211E52789500A3F86E /* MusicListVC.swift in Sources */,
+				17CB8F231E527C4A00A3F86E /* PlaySongVC.swift in Sources */,
+				17CB8F111E52771900A3F86E /* LoginVC.swift in Sources */,
 				17CB8F0F1E52771900A3F86E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
